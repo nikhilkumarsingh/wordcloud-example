@@ -1,3 +1,4 @@
+import sys
 from os import path
 import numpy as np
 from PIL import Image
@@ -37,8 +38,11 @@ def create_wordcloud(text):
 
 
 if __name__ == "__main__":
-	# get text for article
-	text = get_wiki("python programming language")
+	# get query
+	query = sys.argv[1]
+
+	# get text for given query
+	text = get_wiki(query)
 	
 	# generate wordcloud
 	create_wordcloud(text)
