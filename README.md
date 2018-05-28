@@ -1,5 +1,5 @@
 # wordcloud-example
-Exemplar program for creating wordcloud.
+Exemplar program for creating wordcloud.To understand better, refer to this [video](https://www.youtube.com/watch?v=95p3cVkqYHQ).
 
 ## What is a wordcloud?
 
